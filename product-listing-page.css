@@ -7,8 +7,8 @@ header {
   grid-area: header;
 }
 
-.sidebar {
-  grid-area: sidebar;
+.aside {
+  grid-area: aside;
   margin-top: 1rem;
   border-right: 1px solid var(--primary-color);
   max-height: 90vh;
@@ -16,7 +16,7 @@ header {
   top: 7rem;
 }
 
-.sidebar-top {
+.aside-top {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -35,8 +35,8 @@ header {
   width: 100%;
 }
 
-main {
-  grid-area: main;
+section {
+  grid-area: section;
   margin-top: 1rem;
 }
 
@@ -45,9 +45,9 @@ main {
   grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "header header header header header"
-    "sidebar main main main main"
-    "sidebar main main main main"
-    "sidebar main main main main";
+    "aside section section section section"
+    "aside section section section section"
+    "aside section section section section";
   grid-gap: 1.6rem;
 }
 
@@ -71,10 +71,10 @@ main {
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"
-      "main";
+      "section";
     grid-gap: 0px;
   }
-  .sidebar {
+  .aside {
     display: none;
   }
   main {
