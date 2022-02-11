@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Sign-Up</title>
+  </head>
+  <body>
+    <header class="header">
+      <i class="fas fa-bars hamburger-menu"></i>
+
+      <a href="./homepage.html" class="logo"
+        ><i class="fas fa-store"></i>Frontstore</a
+      >
+
+      <form action="" class="search-form">
+        <label for="search-box" class="fas fa-search"></label>
+        <input type="search" id="search-box" placeholder="Search an item" />
+      </form>
+
+      <div class="nav-icons">
+        <a href="./login-page.html">
+          <span class="badge-container"><i class="fas fa-user"> </i></span>
+        </a>
+
+        <a href="./wishlist.html">
+          <span class="badge-container">
+            <i class="fas fa-heart">
+              <span class="badge-icon badge-pink">8</span></i
+            >
+          </span>
+        </a>
+
+        <a href="./mycart.html">
+          <span class="badge-container">
+            <i class="fas fa-shopping-cart">
+              <span class="badge-icon badge-pink">1</span></i
+            >
+          </span>
+        </a>
+      </div>
+    </header>
+
+    <div class="auth-container">
+      <h3 class="text-center">Sign-up</h3>
+      <div class="auth-form-container display-flex-column">
+        <div class="row">
+          <div class="w-30">
+            <label class="form-label form-label-required-field text-semibold"
+              >First Name</label
+            >
+          </div>
+          <div class="w-70">
+            <input
+              type="text"
+              class="form-field"
+              placeholder="Enter your first-name"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="w-30">
+            <label class="form-label form-label-required-field text-semibold"
+              >Last Name</label
+            >
+          </div>
+          <div class="w-70">
+            <input
+              type="text"
+              class="form-field"
+              placeholder="Enter your last-name"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="w-30">
+            <label class="form-label form-label-required-field text-semibold"
+              >Email</label
+            >
+          </div>
+          <div class="w-70">
+            <input
+              type="text"
+              class="form-field"
+              placeholder="Enter your email"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="w-30">
+            <label class="form-label form-label-required-field text-semibold"
+              >Password</label
+            >
+          </div>
+          <div class="w-70">
+            <input
+              type="password"
+              class="form-field"
+              placeholder="Enter your password"
+            />
+          </div>
+        </div>
+
+        <button class="btn primary-btn">Create account</button>
+      </div>
+      <p>
+        Already have an account ?
+        <a href="./login-page.html">
+          <span class="primary-text-color"><b> Sign In </b></span>
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
