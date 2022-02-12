@@ -1,4 +1,5 @@
 @import "https://front-ui.netlify.app/Components/front-u-i.css";
+@import "./product-listing-page.css";
 
 * {
   box-sizing: border-box;

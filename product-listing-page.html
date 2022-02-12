@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontstore</title>
+  </head>
+  <body>
+    <div class="product-page-layout">
+      <header class="header">
+        <i class="fas fa-bars hamburger-menu"></i>
+
+        <a href="./homepage.html" class="logo"
+          ><i class="fas fa-store"></i>Frontstore</a
+        >
+
+        <form action="" class="search-form">
+          <label for="search-box" class="fas fa-search"></label>
+          <input type="search" id="search-box" placeholder="Search an item" />
+        </form>
+
+        <div class="nav-icons">
+          <a href="./login-page.html">
+            <span class="badge-container"><i class="fas fa-user"> </i></span
+          ></a>
+
+          <a href="./wishlist.html">
+            <span class="badge-container">
+              <i class="fas fa-heart">
+                <span class="badge-icon badge-pink">8</span></i
+              >
+            </span>
+          </a>
+
+          <a href="./mycart.html">
+            <span class="badge-container">
+              <i class="fas fa-shopping-cart">
+                <span class="badge-icon badge-pink">1</span></i
+              >
+            </span>
+          </a>
+        </div>
+      </header>
+
+      <aside class="aside">
+        <div class="aside-top">
+          <div class="text-bold">Filters</div>
+          <div>Clear</div>
+        </div>
+
+        <div class="filter price-filter">
+          <h4>Price</h4>
+          <div class="price-range display-flex">
+            <div class="min-price">100</div>
+            <div class="curr-price">2500</div>
+            <div class="max-price">5000</div>
+          </div>
+          <div>
+            <input
+              class="range-slider"
+              type="range"
+              min="100"
+              max="5000"
+              value="2500"
+            />
+          </div>
+        </div>
+
+        <div class="filter category-filter text-semibold">
+          <h4>Category</h4>
+          <label> <input type="checkbox" /> Men Clothing </label>
+          <label> <input type="checkbox" checked /> Men Clothing </label>
+        </div>
+
+        <div class="filter rating-filter text-semibold">
+          <h4>Rating</h4>
+          <label> <input type="radio" name="rating" /> 4 Stars & above </label>
+          <label>
+            <input type="radio" name="rating" checked /> 3 Stars & above
+          </label>
+          <label> <input type="radio" name="rating" /> 2 Stars & above </label>
+          <label>
+            <input type="radio" name="rating" checked /> 1 Stars & above
+          </label>
+        </div>
+
+        <div class="filter sortBy-filter text-semibold">
+          <h4>Sort by</h4>
+          <label>
+            <input type="radio" name="sort-price" /> Price - Low to High
+          </label>
+          <label>
+            <input type="radio" name="sort-price" checked /> Price - High to Low
+          </label>
+        </div>
+      </aside>
+
+      <section>
+        <div class="grid-4-column-layout">
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn primary-btn-text-icon">
+                <span class="btn-icon">
+                  <i class="fas fa-shopping-cart"></i></span
+                >Add
+              </button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn secondary-btn">Go to cart</button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn primary-btn-text-icon">
+                <span class="btn-icon">
+                  <i class="fas fa-shopping-cart"></i></span
+                >Add
+              </button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn primary-btn-text-icon">
+                <span class="btn-icon">
+                  <i class="fas fa-shopping-cart"></i></span
+                >Add
+              </button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn secondary-btn">Go to cart</button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn primary-btn-text-icon">
+                <span class="btn-icon">
+                  <i class="fas fa-shopping-cart"></i></span
+                >Add
+              </button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn secondary-btn">Go to cart</button>
+            </div>
+          </div>
+
+          <div class="card-vertical">
+            <div class="card-img">
+              <img
+                loading="lazy"
+                src="./assets/product-image3-landscape.jpeg"
+                alt="Nature"
+                class="img-responsive"
+              />
+            </div>
+            <i class="far fa-heart card-favourite-icon"></i>
+
+            <div class="card-details">
+              <div class="card-title text-bold text-medium">
+                Denim Mens Jacket
+              </div>
+              <div class="card-category text-bold text-medium">Jacket</div>
+              <div class="card-description">
+                <div class="text-small text-semibold">
+                  Sleeveless Colorblock Men Quilted Jacket
+                </div>
+              </div>
+              <div class="card-price text-medium text-semibold">Rs. 5700</div>
+              <button class="btn primary-btn-text-icon">
+                <span class="btn-icon">
+                  <i class="fas fa-shopping-cart"></i></span
+                >Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
